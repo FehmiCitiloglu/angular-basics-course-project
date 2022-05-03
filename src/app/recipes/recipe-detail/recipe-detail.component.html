@@ -17,13 +17,13 @@
             </button>
             <ul class="dropdown-menu">
                 <li>
-                    <a href="#" (click)="onAddToShoppingList()" style="cursor: pointer;">
+                    <a (click)="onAddToShoppingList()" style="cursor: pointer;">
                         to Shopping List
                     </a>
-                    <a href="#">
+                    <a style="cursor: pointer;" (click)="onEditRecipe()">
                         Edit Recipe
                     </a>
-                    <a href="#">
+                    <a style="cursor: pointer;">
                         Delete Recipe
                     </a>
                 </li>
