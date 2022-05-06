@@ -9,13 +9,13 @@ export class RecipeService {
   private recipes: Recipe[] = [
     new Recipe(
       'A Test Recipe',
-      'This is simply a test',
+      'This is simply a test 1',
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505',
       [new Ingredient('Meat', 1), new Ingredient('French Fries', 20)]
     ),
     new Recipe(
       'A Test Recipe',
-      'This is simply a test',
+      'This is simply a test 2',
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505',
       [new Ingredient('Buns', 2), new Ingredient('Bread', 1)]
     ),
